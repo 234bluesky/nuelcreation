@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    font-size: 22px;
+}
+
+/* Dynamic Typing Effect */
+.dynamic-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00bcd4;
+}
+
+/* About Section */
+.about .container {
+    width: 80%;
+    max-width: 900px;
+    margin: 50px auto;
+    text-align: left;
+}
+
+/* Profile Image Styling */
+.profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Content Styling */
+.about .content {
+    overflow: hidden;
+}
+
+.about h2 {
+    color: #333;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Social Links */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    font-size: 24px;
+    color: #333;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+/* WhatsApp Button */
+.whatsapp-btn {
+    color: #25D366 !important; /* Ensures visibility */
+    font-size: 30px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.whatsapp-btn:hover {
+    color: #1EBE5D;
+}
+
+/* Footer Styling */
+footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+/* Footer Social Links */
+.footer-social-links {
+    margin-top: 10px;
+}
+
+.footer-social-links a {
+    font-size: 24px;
+    color: white;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.footer-social-links a:hover {
+    color: #00bcd4;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-img {
+        float: none;
+        display: block;
+        margin: 0 auto 20px;
+    }
+
+    .about .container {
+        text-align: center;
+    }
+
+    .about .content {
+        text-align: center;
+    }
+}
